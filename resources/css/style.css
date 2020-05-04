@@ -1,0 +1,13 @@
+header {
+  font-family: 'Verdana', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.logo span {
+  color: MediumAquamarine;
+}
+nav span {
+  display: inline-block;
+}
