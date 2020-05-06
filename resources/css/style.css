@@ -69,6 +69,8 @@ main div {
 .large.column {
   width: 630px;
   padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .medium.column {
   width: 300px;
@@ -96,11 +98,13 @@ main div {
 }
 .earth {
   background-image: url("../images/fall.png");
+  background-repeat: no-repeat;
   height: 300px;
   width: 100%;
 }
 .camera {
   background-image: url("../images/hipster.png");
+  background-repeat: no-repeat;
   height: 300px;
   width: 100%;
 }
